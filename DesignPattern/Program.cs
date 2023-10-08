@@ -1,61 +1,68 @@
 ﻿using System;
 
-public interface IHitStrategy
+public interface IComponent
 {
-  void Hit(float amount);
+   string Operation();
 }
 
-public class VertuhaKick : IHitStrategy
+public class HighKick : IComponent
 {
-  public void Hit(float dmg)
+  public string Operation()
   {
-    Console.WriteLine($"Hitted {dmg} using Vertuha.");
-  }
-}
-
-public class UppercutHit : IHitStrategy
-{
-  public void Hit(float dmg)
-  {
-    Console.WriteLine($"Hitted {dmg} using Uppercut.");
+    return "HighKick";
   }
 }
 
-public class Hitter
+public abstract class Decorator : IComponent
 {
-  private IHitStrategy _hitStrategy;
+  protected IComponent component;
 
-  public Hitter(IHitStrategy hitStrategy)
+  public Decorator(IComponent component)
   {
-    _hitStrategy = hitStrategy;
+    this.component = component;
   }
 
-  public void SetHitStrategy(IHitStrategy strategy)
+  public virtual string Operation()
   {
-    _hitStrategy = strategy;
+    return component.Operation();
+  }
+}
+
+public class Kick : Decorator
+{
+  public Kick(IComponent component) : base(component)
+  {
   }
 
-  public void Hit(float amount)
+  public override string Operation()
   {
-    _hitStrategy.Hit(amount);
+    return $"Kick({base.Operation()})";
+  }
+}
+
+public class Hit : Decorator
+{
+  public Hit(IComponent component) : base(component)
+  {
+  }
+
+  public override string Operation()
+  {
+    return $"Hit({base.Operation()})";
   }
 }
 
 class Program
 {
-  static void Main(string[] args)
+  static void Main()
   {
-    IHitStrategy strategy = new UppercutHit(); 
-    Hitter hitter = new Hitter(strategy);
+    IComponent component = new HighKick();
 
-    hitter.Hit(100.14f);
+    IComponent kick = new Kick(component);
+    IComponent hit = new Hit(kick);
+
+    string result = hit.Operation();
+    Console.WriteLine(result);
+    Console.ReadLine();
   }
 }
-
-
-
-
-
-
-
-
