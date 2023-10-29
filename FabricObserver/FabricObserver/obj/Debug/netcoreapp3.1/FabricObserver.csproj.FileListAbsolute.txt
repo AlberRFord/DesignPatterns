@@ -1,0 +1,14 @@
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\bin\Debug\netcoreapp3.1\FabricObserver.exe
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\bin\Debug\netcoreapp3.1\FabricObserver.deps.json
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\bin\Debug\netcoreapp3.1\FabricObserver.runtimeconfig.json
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\bin\Debug\netcoreapp3.1\FabricObserver.runtimeconfig.dev.json
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\bin\Debug\netcoreapp3.1\FabricObserver.dll
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\bin\Debug\netcoreapp3.1\FabricObserver.pdb
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\obj\Debug\netcoreapp3.1\FabricObserver.csproj.AssemblyReference.cache
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\obj\Debug\netcoreapp3.1\FabricObserver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\obj\Debug\netcoreapp3.1\FabricObserver.AssemblyInfoInputs.cache
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\obj\Debug\netcoreapp3.1\FabricObserver.AssemblyInfo.cs
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\obj\Debug\netcoreapp3.1\FabricObserver.csproj.CoreCompileInputs.cache
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\obj\Debug\netcoreapp3.1\FabricObserver.dll
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\obj\Debug\netcoreapp3.1\FabricObserver.pdb
+C:\Users\User.DESKTOP-IJGC9P3.000\source\repos\FabricObserver\FabricObserver\obj\Debug\netcoreapp3.1\FabricObserver.genruntimeconfig.cache
